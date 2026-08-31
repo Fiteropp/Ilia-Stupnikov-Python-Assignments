@@ -1,9 +1,9 @@
 while True:
     try:
-        user_input = float(input("Anna numero: "))
+        user_input = str(input("Anna numero: "))
 
-        if not user_input <= 0:
-            print(f"Tulos cm: {user_input * 2.54}")
+        if user_input:
+            print(f"Numero: {user_input}")
         else: break
 
     except ValueError:
