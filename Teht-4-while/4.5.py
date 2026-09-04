@@ -26,6 +26,6 @@ while i < 5:
                 print(f"Väärä salasana, {5 - i} yritystä jäljellä")
 
     except ValueError:
-        print("Väärillinen syöte")
+        print("Virheellinen syöte")
 else:
     print("Pääsy evätty")

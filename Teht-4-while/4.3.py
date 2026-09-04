@@ -7,4 +7,4 @@ while True:
         else: break
 
     except ValueError:
-        print("Väärillinen syöte")
+        print("Virheellinen syöte")

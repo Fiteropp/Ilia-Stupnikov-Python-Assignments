@@ -29,4 +29,4 @@ while True:
 
 
     except ValueError:
-        print("Väärillinen syöte")
+        print("Virheellinen syöte")

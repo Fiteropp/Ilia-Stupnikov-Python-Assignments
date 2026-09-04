@@ -20,11 +20,11 @@ while True:
             try:
                 user_input_float = float(user_input)
             except ValueError:
-                print("Väärillinen syöte")
+                print("Virheellinen syöte")
 
             print(f"Numero: {user_input_float}")
             numbers.append(user_input_float)
 
 
     except ValueError:
-        print("Väärillinen syöte")
+        print("Virheellinen syöte")

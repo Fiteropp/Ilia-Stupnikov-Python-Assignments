@@ -16,7 +16,7 @@ while True:
 
 
     except ValueError:
-        print("Väärillinen syöte")
+        print("Virheellinen syöte")
 
 
 while noppa != user_input:

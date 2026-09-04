@@ -12,4 +12,4 @@ try:
         else:
             print("Annettu vuosi ei ole karkausvuosi")
 except ValueError:
-    print("Väärillinen syöte")
+    print("Virheellinen syöte")
