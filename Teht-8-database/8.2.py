@@ -63,7 +63,7 @@ while True:
         2. Lopeta
         """)
     try:
-        user_selector = int(input("Valitse 1-3: "))
+        user_selector = int(input("Valitse 1-2: "))
 
         match user_selector:
             case 1:

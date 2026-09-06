@@ -1,2 +1,5 @@
-mysql-connector-python
-dotenv
+dotenv==0.9.9
+geographiclib==2.1
+geopy==2.5.0
+mysql-connector-python==26.7.0
+python-dotenv==1.2.3
