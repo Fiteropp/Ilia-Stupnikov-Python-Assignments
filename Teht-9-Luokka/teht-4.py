@@ -11,18 +11,14 @@ class Auto:
     kuljettu_matka:float = 0
 
 
-    def kiihdyta_auto(self, nopeuden_muutos:float):
-
-        match self.nopeus + nopeuden_muutos:
-
-            case n if n + nopeuden_muutos < 0:
-                self.nopeus = 0
-
-            case n if n + nopeuden_muutos > self.max_nopeus:
-                self.nopeus = self.max_nopeus
-
-            case _:
-                self.nopeus = nopeuden_muutos
+    def kiihdyta_auto(self, nopeuden_muutos: float):
+        uusi_nopeus = self.nopeus + nopeuden_muutos
+        if uusi_nopeus < 0:
+            self.nopeus = 0
+        elif uusi_nopeus > self.max_nopeus:
+            self.nopeus = self.max_nopeus
+        else:
+            self.nopeus = uusi_nopeus
 
 
     def kulje(self, tunteja:float):
